@@ -1,0 +1,150 @@
+/* .todo{
+    padding-top: 50px;
+}
+.todo h1{
+    text-align: center;
+}
+.todoadd input{
+    height: 38px;
+    width: 30%;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-right: 5px;
+    padding-left: 15px;
+    font-size: 15px;
+    color: black;
+    border: 1px solid black;
+    font-size: 20px;
+} */
+/* .todo .task{
+    border: solid 2px black;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top:10px;
+} */
+
+.todo {
+    padding-top: 50px;
+    text-align: center;
+    background-image: linear-gradient(49deg, rgb(159, 142, 236) 20%, #e3cfcf 80%);
+    min-height: 93.3vh;
+}
+
+.todo h1 {
+    font-family: 'VIVALDII';
+    font-size: 50px;
+}
+
+.adi h3 {
+    /* display: inline-block; */
+    /* width: fit-content; */
+    padding-left: 20px;
+    margin: 10px;
+    /* margin-right: auto;
+    margin-left: 0; */
+    float: left;
+}
+
+.adi {
+    display: inline-block;
+    /* width: fit-content; */
+    width: 500px;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: 0 2px 5px rgb(0, 0, 0, 1);
+    background-color: #FEE9FF;
+}
+
+.delbut {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    border: none;
+    float: right;
+    border-radius: 20PX;
+    /* background-color: white; */
+    /* box-shadow: 0 2px 5px rgb(0, 0, 0, 1); */
+    /* border-radius: 100px; */
+}
+
+.delbut:hover {
+    /* background-color: rgb(162, 162, 162); */
+    box-shadow: 0 2px 5px rgb(0, 0, 0, 1);
+    /* border-radius: 100px; */
+}
+
+.delbut:active {
+    box-shadow: none;
+}
+
+
+
+.todo-input {
+    border-radius: 15px;
+    height: 40px;
+    width: 550px;
+    display: inline-block;
+    /* width: fit-content; */
+    /* transition: width 3s ease; */
+    font-size: large;
+    box-shadow: 0 2px 5px rgb(0, 0, 0, 1);
+    margin-bottom: 20px;
+    margin-left: 45px;
+    border: none;
+    outline: none;
+    padding-left: 60px;
+    font-family: 'VIVALDII';
+    font-size: x-large;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+
+}
+
+.todo-input ::placeholder {
+    font-family: 'VIVALDII';
+}
+
+.todo-b {
+    position: relative;
+    top: 5px;
+    /* z-index: -1; */
+    margin-left: 20px;
+    margin-right: 45px;
+    border: none;
+    /* background-color: white; */
+    box-shadow: 0 2px 5px rgb(0, 0, 0, 1);
+    border-radius: 50px;
+}
+
+.todo-b:hover {
+    background-color: rgb(162, 162, 162);
+    border-radius: 100px;
+}
+
+.todo-b:active {
+    box-shadow: none;
+}
+
+.input-icon {
+    position: relative;
+    left: 95px;
+    top: 7px;
+}
+
+@font-face {
+    font-family: 'VIVALDII';
+    src: url('../font/VIVALDII.TTF') format('truetype');
+    /* Add additional src rules for other font file formats if needed */
+}
+
+.todocard {
+    /* border:5px solid; */
+    width: 600px;
+    display: inline-block;
+    width: fit-content;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: rgb(119, 96, 174);
+    box-shadow: 0 2px 5px rgb(0, 0, 0, 1);
+    /* margin */
+}
