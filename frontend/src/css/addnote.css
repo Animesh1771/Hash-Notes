@@ -1,0 +1,105 @@
+.hellonotes {
+    padding-top: 20px;
+    padding-bottom: 17px;
+    min-height: 645px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f6f6f6;
+    background-image: linear-gradient(49deg, rgb(136, 136, 184) 20%, #e4d0d0 80%);
+}
+
+.hellonotes input {
+    height: 60px;
+    width: 50%;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bolder;
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.hellonotes input:focus {
+    box-shadow: 0 2px 5px rgb(0, 0, 0, 1);
+}
+
+
+.quillarea {
+    width: 900px;
+    min-height: 400px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.ql-container {
+    border: none !important;
+}
+
+.ql-toolbar.ql-snow {
+    border-radius: 20px;
+    margin: 20px;
+    width: 400px;
+    margin-left: 250px;
+    text-align: center;
+    background-color: #F2ECFF;
+    border: none;
+    outline: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.ql-editor {
+    height: 495px;
+    border: none;
+    outline: none;
+    overflow-x: hidden;
+    border-radius: 30px;
+    font-size: 150%;
+    background-color: #f6f6f6;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.ql-editor:focus {
+    box-shadow: 0 2px 5px rgb(0, 0, 0, 1);
+}
+
+
+.savenotesbut {
+    height: 35px;
+    width: 100px;
+    background-image: linear-gradient(40deg, rgb(58, 58, 131) 20%, #741f7d 80%);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 26px;
+    font-size: 18px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.savenotesbut:hover {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
+}
+
+.savenotesbut:active {
+    box-shadow: none;
+}
+
+
+.ql-editor::-webkit-scrollbar {
+    width: 10px;
+    position: relative !important;
+    left: 50px;
+}
+
+.ql-editor::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 2px grey;
+    border-radius: 10px;
+    border: 2px solid black;
+}
+
+.ql-editor::-webkit-scrollbar-thumb {
+    background: #000000;
+    border-radius: 10px;
+    border: 1px solid rgb(202, 202, 202);
+}
