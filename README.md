@@ -19,5 +19,5 @@ It is free and simple to use where you can manage the notes, search for desired 
 ![2](https://github.com/Animesh1771/Hash-Notes/assets/95126813/89594090-2055-4f80-ae2e-84804facf045)
 
 #Add or Edit Notes Page
-![2](https://github.com/Animesh1771/Hash-Notes/assets/95126813/b1b52f23-69e8-4650-8aa1-a87546b9f345)
+![3](https://github.com/Animesh1771/Hash-Notes/assets/95126813/c0588eec-25e5-49bb-b25a-b79a0888a6b6)
 
